@@ -34,6 +34,7 @@ The project aims to:
 - **Processing**:
   - Images resized to `64x64x3` for consistency.
   - Normalized pixel values to `[0, 1]`.
+    
     ![Screenshot 2024-11-14 012449](https://github.com/user-attachments/assets/f3ceb2b8-6b5e-4ba7-97ce-3f982bd07c02)
 
 ## Methodology
