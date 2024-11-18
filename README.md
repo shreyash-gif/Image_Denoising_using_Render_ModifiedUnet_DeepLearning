@@ -25,11 +25,16 @@ The project aims to:
 
 ## Dataset Preparation
 - **Source**: Dataset created using Blender by rendering scenes with random objects, materials, and camera positions.
+![Screenshot 2024-11-13 220836](https://github.com/user-attachments/assets/bc547325-1aa4-4edd-be04-dbcee6e2a963)
+![Screenshot 2024-11-13 220859](https://github.com/user-attachments/assets/1437473a-c2d4-4c06-8979-457d672e2937)
+![Screenshot 2024-11-13 220932](https://github.com/user-attachments/assets/f75975d9-df82-4fb2-9564-4d27bae8d4a6)
+
 - **File Details**: `dataset2.zip`
   - Contains noisy images (`noise/`) and corresponding clean images (`denoise/`).
 - **Processing**:
   - Images resized to `64x64x3` for consistency.
   - Normalized pixel values to `[0, 1]`.
+    ![Screenshot 2024-11-14 012449](https://github.com/user-attachments/assets/f3ceb2b8-6b5e-4ba7-97ce-3f982bd07c02)
 
 ## Methodology
 1. **Data Collection**:
@@ -54,6 +59,7 @@ The project aims to:
 - **Metrics**:
   - Mean Squared Error (MSE)
   - Structural Similarity Index Measure (SSIM)
+    ![Evaluton_Metircs](https://github.com/user-attachments/assets/0ebbcc10-009b-49e6-bccb-2b733369ed8d)
 - **Visualization**:
   - Plots comparing noisy, clean, and denoised images.
 
