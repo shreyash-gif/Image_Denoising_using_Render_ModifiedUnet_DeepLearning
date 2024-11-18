@@ -69,8 +69,11 @@ The project aims to:
   2. **Sliding Window Denoising**: Uses overlapping patches to reduce boundary artifacts.
 - Demonstrated high-quality denoising results through visual comparisons and quantitative metrics.
 ![img10grid](https://github.com/user-attachments/assets/b4057e10-41ac-41dd-bb01-8f166aabea1b)
+Grid Based Image Result
 ![img10slide8](https://github.com/user-attachments/assets/c75eaae6-c36f-4fa5-a81e-58b985428630)
+Sliding Window Denoising Result
 ![img10slide8x2](https://github.com/user-attachments/assets/ebe59e3d-1d90-4f12-ac4f-772d35986684)
+Sliding Window Denoising X2 Result
 
 - 
 
